@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "lesson-algebra-video",
+      "description": "A video lesson on algebra.",
+      "imageUrl": "https://picsum.photos/seed/1/600/400",
+      "imageHint": "mathematics classroom"
+    },
+    {
+      "id": "lesson-photosynthesis-text",
+      "description": "A text lesson explaining photosynthesis.",
+      "imageUrl": "https://picsum.photos/seed/2/600/400",
+      "imageHint": "green leaves"
+    },
+    {
+      "id": "lesson-ww2-quiz",
+      "description": "A quiz on World War II history.",
+      "imageUrl": "https://picsum.photos/seed/3/600/400",
+      "imageHint": "history books"
+    },
+    {
+      "id": "lesson-solar-system-video",
+      "description": "A video lesson about the solar system.",
+      "imageUrl": "https://picsum.photos/seed/4/600/400",
+      "imageHint": "planets space"
+    }
+  ]
 }
