@@ -1,0 +1,99 @@
+Register.html
+
+<html>
+<head>
+<title>Register</title>
+</head>
+<body>
+<form name="register" method="post">
+<table align="center" bgcolor="#BDBDBD ">
+<caption><h>Registration Page</h></caption>
+<tr>
+<td>User Name</td>
+<td><input type="text" name="uname"></td>
+<td><input type="password" name="pwd"></td>
+</tr>
+<tr>
+<td>E-mail</td>
+<td><input type="text" name="email"></td>
+</tr>
+<tr> <td>Phone Number</td>
+<td><input type="text" name="phno" size="12" maxlength="10"></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="gender"checked>Male &nbsp;
+<input type="radio" name="gender">Female</td>
+</tr>
+<tr>
+<td>Date Of Birth</td>
+<td><input type="date" name="dob"></td>
+</tr>
+<td>Languages Known</td>
+<td><input type="checkbox" name="chkEng" checked>English &nbsp;
+<input type="checkbox" name="chkHim">Hindi &nbsp;
+<input type="checkbox" name="chkTel">Telugu &nbsp;
+<input type="checkbox" name="chkTam">Tamil &nbsp;
+</td>
+<tr>
+<td><select name="states">
+<option value="select">SelectState</option>
+<option value="Telangana">TS</option>
+<option value="AP">AP</option>
+<option value="MP">MP</option>
+<option values="Karnataka">KN</option>
+<option values="Tamilnadu">TN</option>
+</select>
+</td>
+<td><select name="dist">
+<option value="Select">SelectDist</option>
+<option value="Hyderabad">Hyderabad</option>
+<option value="Warangal">Warangal</option>
+<option value="RangaReddy">RangaReddy</option>
+<option value="Karimnagar">Karimnagar</option>
+<option value="Nalgonda">Nalgonda</option>
+</select>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<td>Address</td>
+<td><textarea rows="5" cols="20" name="txtAddress"></textarea></td>
+</tr>
+<tr> <td colspan="2" align="center"> <input type="submit" value="Register">&nbsp;
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+Login.html
+
+<html>
+<head>
+<title>Login</title>
+<head>
+<body>
+<form name="login" method="post">
+<table align="center">
+<caption><h>Login</h></caption>
+<tr>
+<td>Username</td>
+<td><input type="text" name="uname"></td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input type="password" name="pwd"></td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Login">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+
